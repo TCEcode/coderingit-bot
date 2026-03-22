@@ -1,0 +1,10 @@
+name = "coderingit-bot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "POSTED_NEWS"
+id = "REPLACE_WITH_YOUR_KV_ID"
+
+[triggers]
+crons = ["0 */3 * * *"]
